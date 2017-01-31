@@ -1,0 +1,55 @@
+<DOCTYPE HTML!>
+
+<HTML>
+
+<head>
+	<title>Comounding Interest</title>
+	<link rel = "stylesheet" type = "text/css" href = "compint.css"> 
+</head>
+
+<body>
+	<h1>Compounding Interest</h1>
+	
+	<div class = "in">
+		<p>
+			Input Values Here:
+		</p>
+		<p>
+			<ul>
+				<li> Initial Investment ($): 
+					<input type = "number" value = "50" id="principle"></input>
+				<li> Interest Rate (%): 
+					<input type = "number" value = "9" id="rate"></input>
+				<li> length of Investment (Years): 
+					<input type = "number" size = "5" value = "30" id="years"></input>
+				<li> Compouding Period: 
+					<select id="period" class="period">
+						<option value="1">Annually</option>
+						<option value="2">Semiannually</option>
+						<option value="4">Quarterly</option>
+						<option value="12">Monthly</option>
+						<option value="365">Daily</option>
+					</select></li>
+			<ul>
+		</p>
+	</div>
+	
+	<div class = "butt">
+		<p>
+			<center><button type = "button" class = "button" onclick = "finalVal()">Calculate</button></center>
+		</p>
+	</div>
+	
+	<div class = "out">
+		<p>
+			The final value of your investment will equal: 
+		</p>
+		<center>
+			<p id = "final" class="final"></p>
+		</center>
+	</div>
+	
+	<script src = "compint.js"></script>
+</body>
+
+</HTML>
