@@ -1,6 +1,8 @@
 body {
 	margin: 20px;
+	background: linear-gradient(#659df7, #4274c4);
 }
+
 
 * {
     box-sizing: border-box;
@@ -21,10 +23,11 @@ li {
 }
 
 .in {
-	width: 25%;
-	border: 1px solid black;
+	background-color: #e3ebf7;
+	width: 50%;
+	margin: auto;
+	border: 3px solid black;
 	height: 200px;
-	float: left;
 	padding: 10px;
 	border-radius: 5px;
 }
@@ -35,20 +38,16 @@ li {
 }	
 
 .butt {
-	width: 25%;
-	float: left;
-	height: 200px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-	
 .button {
+	background-color: #e3ebf7;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin: auto;
 	-webkit-transition-duration: 0.4s;
 	border-radius: 3px;
 	border-color:black;
@@ -60,9 +59,10 @@ li {
 }
 
 .out {
+	background-color: #e3ebf7;
 	width: 50%;
-	border: solid black 1px;
-	float: left;
+	margin: auto;
+	border: solid black 3px;
 	height: 200px;
 	border-radius: 5px;
 	padding: 10px;
@@ -78,4 +78,4 @@ select{
 
 .final {
 	font-size: 50px;
-	}
+}
